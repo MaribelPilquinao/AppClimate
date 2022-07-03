@@ -17,7 +17,7 @@ function App() {
     }, (error) => {
       console.error(error);
       console.log("Ha ocurrido un error");
-    });
+  });
 
   }, []);
   console.log(data);
@@ -25,7 +25,6 @@ function App() {
   const converterButton = () => {
     setIsClick(!isClick);
   }
- 
 
   return (
     <>
