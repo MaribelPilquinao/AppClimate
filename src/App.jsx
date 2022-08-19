@@ -25,10 +25,10 @@ function App() {
   const converterButton = () => {
     setIsClick(!isClick);
   }
+  
 
   return (
     <>
-    <img className='bg__image' src={bgImg} alt="image background climate" />
     <div className="card__climate">
       <div className="info__title">
         <h1>Weather App</h1>

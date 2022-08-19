@@ -5,6 +5,9 @@
 }
 body{
   font-family: 'Mada', sans-serif;
+  /* background-color: red; */
+  background: linear-gradient(360deg, #299fbc 10%, #376487 90%)
+
 }
 
 #root {
@@ -25,7 +28,7 @@ body{
   border-radius: 10px;
   padding: 10px;
   color: #ffffff;
-  box-shadow: inset 0px 0px 50px 0 rgba(20, 20, 20, 0.4);
+  box-shadow:  2px 2px 4px rgba(109, 107, 107, 0.559);
 }
 
 .info__title {
@@ -89,12 +92,7 @@ button:hover {
   display: flex;
   margin-left: 40%;
 }
-.bg__image{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
+
 
 
 
